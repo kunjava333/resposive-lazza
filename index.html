@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-black nav-color sticky-top position-fixed">
+            <div class="container-fluid px-3 mx-5">
+        
+              <a class="navbar-brand" href="#">
+                <img class="img-fluid" style="width:5rem" src="logo.png">
+              </a>
+                                  
+               <div class="collapse navbar-collapse text-center justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav text-white mb-3 pt-4">
+                      <li class="nav-item">
+                          <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#prodects">PRODUCT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">OFFERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white">CONTACT US</a>
+                        </li>
+                    </ul> 
+                </div>
+                
+                <div class="icons d-flex justify-content-around ms-4 d-flex d-md-flex d-lg-flex gap-3">
+                    
+                    <img class="topright nav-img" src="search.png" width="23px" height="23px">
+                    <img class="topright nav-img" src="cart.png" width="23px" height="23px">
+                    <img class="topright nav-img" src="account.png" width="23px" height="23px">
+                    
+                    
+                    
+                </div>
+                
+                <button  class="navbar-toggler toggler-color bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="carouselExample" class="carousel ">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <div class="carousel-inner">
+                <div class="carousel-item active col-xxl-12 col-md-12">
+                    <img class=" img-fluid" src="2.jpg" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container moodscontainer">
+            <div class="row ">
+                <div class="col-md-12">
+                    <h1 class="text-center fs-1 pt-5 pb-5">WIDE RANGE OF OUR PRODUCTS</h1>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="inner_product">
+                        <a onclick="nav(86,'Sugar Free')"> <img class="img-fluid" src="1.png">
+                        </a>
+                        <h3 class="text-center">
+                            <a class="nav-link pt-4 pb-5 text-dark" onclick="nav(86,'Sugar Free')">SUGAR FREE</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="inner_product">
+                        <a onclick="nav(65,'Basic Series')"> <img class="img-fluid" src="3.png">
+                        </a>
+                        <h3 class="text-center">
+                            <a class="nav-link pt-4 pb-5 text-dark" onclick="nav(65,'Basic Series')">BASIC SERIES</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="inner_product">
+                        <a onclick="nav(64,'Indulgence Series')"> <img class="img-fluid" src="4.png">
+                        </a>
+                        <h3 class="text-center">
+                            <a class="nav-link pt-4 pb-5 text-dark" onclick="nav(64,'Indulgence Series')">INDULDGENCE
+                                SERIES</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="inner_product">
+                        <a onclick="nav(63,'Premium Series')"> <img class="img-fluid" src="5.png">
+                        </a>
+                        <h3 class="text-center">
+                            <a class="nav-link pt-4 pb-5 text-dark" onclick="nav(63,'Premium Series')">PREMIUM
+                                SERIES</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="inner_product">
+                        <a onclick="nav(62,'Ethnic Series')"> <img class="img-fluid" src="6.png">
+                        </a>
+                        <h3 class="text-center">
+                            <a class="nav-link pt-4 pb-5 text-dark" onclick="nav(62,'Ethnic Series')">ETHNIC SERIES</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="inner_product">
+                        <a onclick="nav(61,'Natural Series')"> <img class="img-fluid" src="7.png">
+                        </a>
+                        <h3 class="text-center">
+                            <a class="nav-link pt-4 pb-5 text-dark" onclick="nav(61,'Natural Series')">NATURAL
+                                SERIES</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="inner_product">
+                        <a onclick="nav(60,'Boutique Series')"> <img class="img-fluid" src="8.jpg">
+                        </a>
+                        <h3 class="text-center">
+                            <a class="nav-link pt-4 pb-5 text-dark" onclick="nav(60,'Boutique Series')">BOUTIQUE
+                                SERIES</a>
+                        </h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="last" class="container-fluid">
+            <div class="img-fluid">
+                <img src="last.jpeg" width="100%">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer" class="container-fluid">
+            <div id="last-footer" class="row">
+                <div class="col-md-2">
+                    <div class="img-fluid">
+                        <img src="simons.png" width="150px" height="135px">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-fluid">
+                        <h4>HELP</h4>
+                        <a href="#">Track Your Order</a>
+                        <br>
+                        <a href="#">Chat With Us</a>
+                        <br>
+                        <a href="#">Support</a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-fluid">
+                        <h4>ABOUT US</h4>
+                        <a href="#">Our History</a>
+                        <br>
+                        <a href="#">Privecy Policy</a>
+                        <br>
+                        <a href="#">Support</a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-fluid">
+                        <h4>PRODUCTS</h4>
+                        <a href="#">Our Products</a>
+                        <br>
+                        <a href="#">Offers</a>
+                        <br>
+                        <a href="#">About Us</a>
+                        <br>
+                        <a href="#">Want to be a Distributer</a>
+                        <br>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-fluid">
+                        <h4>CONTACT US</h4>
+                        <a href="#">7907262414</a>
+                        <br>
+                        <a href="#">support@lazza.co.in</a>
+                        <br>
+                        <a href="#">Support</a>
+                        <div class="row">
+                            <div class="img-fluid">
+                                <a href="#">
+                                    <img src="fb.png" alt="facebook" width="30px" height="30px">
+                                </a>
+                                <a href="#">
+                                    <img src="insta.png" alt="instargram" width="30px" height="30px">
+                                </a>
+                                <a href="#">
+                                    <img src="pin.png" alt="pintrest" width="30px" height="30px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 ">
+                    <div class="img-fluid">
+                        <img id="footer-logo" src="footer_logo.png" alt="lazza logo" width="150px" height="117px">
+                    </div>
+                </div>
+            </div>
+            <div class="line">
+
+            </div>
+        </div>
+        <div id="the-last" class="container-fluid">
+            <div class="col-md-2">
+                <span id="lazza" style="color: #be9509;">
+                    <p>© Lazza Ice Creams - 2023</p>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
